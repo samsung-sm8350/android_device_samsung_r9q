@@ -1,25 +1,24 @@
 # All blobs from G990BXXS9GXI1 (U), unless pinned
-
 # Audio
+vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/dax_param.bin
 vendor/lib/hw/audio.primary.lahaina.so
 vendor/lib/libspeakercalibration.so
-vendor/firmware/dax_param.bin
-vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
-vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
-vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
 
 # ACDB
-vendor/etc/audconf/OPEN/Global_cal.acdb
 vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
-vendor/etc/audconf/OPEN/Headset_cal.acdb
 vendor/etc/audconf/OPEN/General_cal.acdb
-vendor/etc/audconf/OPEN/workspaceFile.qwsp
-vendor/etc/audconf/OPEN/Speaker_cal.acdb
-vendor/etc/audconf/OPEN/Hdmi_cal.acdb
+vendor/etc/audconf/OPEN/Global_cal.acdb
 vendor/etc/audconf/OPEN/Handset_cal.acdb
+vendor/etc/audconf/OPEN/Hdmi_cal.acdb
+vendor/etc/audconf/OPEN/Headset_cal.acdb
+vendor/etc/audconf/OPEN/Speaker_cal.acdb
+vendor/etc/audconf/OPEN/workspaceFile.qwsp
 
 # IPA Firmware
 vendor/firmware/ipa_fws.b00
@@ -35,8 +34,8 @@ system/lib64/vendor.samsung.hardware.camera.provider-V1-ndk.so
 vendor/etc/permissions/vendor.android.hardware.camera.preview-dis.back.xml
 vendor/etc/portrait_data/LF_segmenter/LF_segmenter_cnn.dlc
 vendor/etc/portrait_data/LF_segmenter/LF_segmenter_cnn.info
-vendor/etc/portrait_data/single_bokeh_feature_vendor.json
 vendor/etc/portrait_data/SRIB_HumanSegVideo_INT8_V102_sm8350_snpe1500_vendor.dlc
+vendor/etc/portrait_data/single_bokeh_feature_vendor.json
 vendor/etc/str/str_preference_data.dat
 vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so
@@ -136,8 +135,8 @@ vendor/lib/camera/components/com.ss.stats.aec.so
 vendor/lib/camera/components/com.ss.stats.af.so
 vendor/lib/camera/components/com.ss.stats.awb.so
 vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/camera.unihal.default.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/libDepthBokehVideo_interface.so
 vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxexternalformatutils.so
@@ -154,24 +153,15 @@ vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2svarnn.so
 vendor/lib/libcapiv2vop.so
-vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libDepthBokehVideo_interface.so
-vendor/lib/libDualCamBokehCapture.camera.samsung.so
 vendor/lib/libdualcam_refocus_image.so
 vendor/lib/libdualcam_refocus_video.so
 vendor/lib/libhdrdynamicootf.so
-vendor/lib/libmpbase.so
 vendor/lib/libremosaic_wrapper.so
-vendor/lib/libswregistrationalgo.so
-vendor/lib/libtriplecam_image_optical_zoom.so
 vendor/lib/libtriplecam_optical_zoom_control.so
 vendor/lib/libtriplecam_video_optical_zoom.so
 vendor/lib/libvdis.uniplugin@1.0.so
-vendor/lib/libvdis_core.so
 vendor/lib/libvdis_interface.so
 vendor/lib/libvideoutils.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
@@ -276,8 +266,8 @@ vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
 vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/camera.unihal.default.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libDepthBokehVideo_interface.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -294,52 +284,19 @@ vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2svarnn.so
 vendor/lib64/libcapiv2vop.so
-vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libDepthBokehVideo_interface.so
-vendor/lib64/libDualCamBokehCapture.camera.samsung.so
 vendor/lib64/libdualcam_refocus_image.so
 vendor/lib64/libdualcam_refocus_video.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
-vendor/lib64/libmpbase.so
-vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_wrapper.so
-vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvdis.uniplugin@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/sensors.ssc.so
-vendor/etc/sensors/config/lahaina_ak991x_0.json
-vendor/etc/sensors/config/lahaina_ak991x_1.json
-vendor/etc/sensors/config/lahaina_hdk_ak991x_0.json
-vendor/etc/sensors/config/lahaina_hdk_lsm6dst_0.json
-vendor/etc/sensors/config/lahaina_hdk_lsm6dst_1.json
-vendor/etc/sensors/config/lahaina_hdk_sx932x_0.json
-vendor/etc/sensors/config/lahaina_hdk_tmd2725_0.json
-vendor/etc/sensors/config/lahaina_lps22hh_0.json
-vendor/etc/sensors/config/lahaina_lsm6dso_0_0.json
-vendor/etc/sensors/config/lahaina_lsm6dso_0_5.json
-vendor/etc/sensors/config/lahaina_stk3a9x_0.json
-vendor/etc/sensors/config/lsm6dso_0.json
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # Camera stock stack
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
-vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
-vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so
-vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
-vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
-vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so
 system/lib64/android.hardware.camera.common@1.0.so:vendor/lib64/android.hardware.camera.common@1.0.so
-system/lib64/android.hardware.camera.common-V1-ndk.so:vendor/lib64/android.hardware.camera.common-V1-ndk.so
 system/lib64/android.hardware.camera.device@1.0.so:vendor/lib64/android.hardware.camera.device@1.0.so
 system/lib64/android.hardware.camera.device@3.2.so:vendor/lib64/android.hardware.camera.device@3.2.so
 system/lib64/android.hardware.camera.device@3.3.so:vendor/lib64/android.hardware.camera.device@3.3.so
@@ -347,34 +304,30 @@ system/lib64/android.hardware.camera.device@3.4.so:vendor/lib64/android.hardware
 system/lib64/android.hardware.camera.device@3.5.so:vendor/lib64/android.hardware.camera.device@3.5.so
 system/lib64/android.hardware.camera.device@3.6.so:vendor/lib64/android.hardware.camera.device@3.6.so
 system/lib64/android.hardware.camera.device@3.7.so:vendor/lib64/android.hardware.camera.device@3.7.so
-system/lib64/android.hardware.camera.device-V2-ndk.so:vendor/lib64/android.hardware.camera.device-V2-ndk.so
 system/lib64/android.hardware.camera.metadata@3.2.so:vendor/lib64/android.hardware.camera.metadata@3.2.so
 system/lib64/android.hardware.camera.metadata@3.3.so:vendor/lib64/android.hardware.camera.metadata@3.3.so
 system/lib64/android.hardware.camera.metadata@3.4.so:vendor/lib64/android.hardware.camera.metadata@3.4.so
 system/lib64/android.hardware.camera.metadata@3.5.so:vendor/lib64/android.hardware.camera.metadata@3.5.so
 system/lib64/android.hardware.camera.metadata@3.6.so:vendor/lib64/android.hardware.camera.metadata@3.6.so
-system/lib64/android.hardware.camera.metadata-V2-ndk.so:vendor/lib64/android.hardware.camera.metadata-V2-ndk.so
 system/lib64/android.hardware.camera.provider@2.4.so:vendor/lib64/android.hardware.camera.provider@2.4.so
 system/lib64/android.hardware.camera.provider@2.5.so:vendor/lib64/android.hardware.camera.provider@2.5.so
 system/lib64/android.hardware.camera.provider@2.6.so:vendor/lib64/android.hardware.camera.provider@2.6.so
-system/lib64/android.hardware.camera.provider@2.7.so:vendor/lib64/android.hardware.camera.provider@2.7.so
-system/lib64/android.hardware.camera.provider-V2-ndk.so:vendor/lib64/android.hardware.camera.provider-V2-ndk.so
+vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
+vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
+vendor/lib/libloc_api_wds.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
 vendor/lib64/camera.device@3.4-impl.so
 vendor/lib64/camera.device@3.5-impl.so
-system/system/lib64/libexif.so:vendor/lib64/libexif.so
+vendor/lib64/libPetDetector_interface.so
 vendor/lib64/libgrallocusage.so
 vendor/lib64/libgrallocutils.so
 vendor/lib64/libqc2filter.so
-vendor/lib/libaudio_soundtrigger.so
-vendor/lib64/libPetDetector_interface.so
-vendor/lib/libloc_api_v02.so
-vendor/lib/libloc_api_wds.so
-system/system/lib64/libpng.so:vendor/lib64/libpng.so
-
-
+vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so
+vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
+vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
+vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so
 
 # Touchscreen firmware
 vendor/firmware/s3908_r9.bin
@@ -387,7 +340,6 @@ vendor/lib/libarcsoft_aieffectpk_video_plight.so
 vendor/lib/libarcsoft_dualcam_portraitlighting.so
 vendor/lib/libarcsoft_dualcam_portraitlighting_preview.so
 vendor/lib/libarcsoft_object_tracking.so
-vendor/lib/libarcsoft_super_night_auto_raw.so
 vendor/lib/libarcsoft_video_super_night.so
 vendor/lib64/libarcsoft_aieffectpk_video.so
 vendor/lib64/libarcsoft_aieffectpk_video_bokeh.so
@@ -396,7 +348,6 @@ vendor/lib64/libarcsoft_deflicker_native.so
 vendor/lib64/libarcsoft_dualcam_portraitlighting.so
 vendor/lib64/libarcsoft_dualcam_portraitlighting_preview.so
 vendor/lib64/libarcsoft_object_tracking.so
-vendor/lib64/libarcsoft_super_night_auto_raw.so
 vendor/lib64/libarcsoft_video_super_night.so
 
 # Camera-sensors
@@ -405,28 +356,20 @@ vendor/lib/libmmcamera_cac3.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_lscv35.so
-vendor/lib/libmmcamera_mfnr.so
 vendor/lib/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_lscv35.so
-vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
 
 # Camera firmware
-vendor/firmware/ois_mcu_stm32g_fw.bin
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
+vendor/firmware/ois_mcu_stm32g_fw.bin
 
 # Firmware
-vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
-vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
-vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
 vendor/firmware/cs40l20.bin
 vendor/firmware/cs40l20.wmfw
 vendor/firmware/cs40l25a.wmfw
@@ -434,7 +377,6 @@ vendor/firmware/cs40l25a_cal.wmfw
 vendor/firmware/cs40l25a_clab.bin
 vendor/firmware/cs40l25a_clab.wmfw
 vendor/firmware/cs40l25a_exc.bin
-vendor/firmware/dax_param.bin
 vendor/firmware/evass-lt.b00
 vendor/firmware/evass-lt.b02
 vendor/firmware/evass-lt.b03
@@ -550,31 +492,30 @@ vendor/firmware/y792_o1.bin
 
 # Fingerprint
 vendor/lib/libbauthserver.so
-vendor/lib64/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
-vendor/lib64/libbauthtzcommon.so
-vendor/lib/libsynaFpSensorTestNwd.so
-vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib/libegis_fp_normal_sensor_test.so
-vendor/lib64/libegis_fp_normal_sensor_test.so
-vendor/lib/libqfp_sensortest.so
-vendor/lib64/libqfp_sensortest.so
 vendor/lib/libgf_in_system_lib.so
+vendor/lib/libqfp_sensortest.so
+vendor/lib/libsynaFpSensorTestNwd.so
+vendor/lib64/libbauthserver.so
+vendor/lib64/libbauthtzcommon.so
+vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libgf_in_system_lib.so
+vendor/lib64/libqfp_sensortest.so
+vendor/lib64/libsynaFpSensorTestNwd.so
 
 # Graphics
 vendor/etc/qdcm_calib_data_ss_dsi_panel_EA8082_AMB641ZR01_FHD.xml
 vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMB641ZR02_FHD.xml
 
 # NFC
+-vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml
 vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
 vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
--vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml
-vendor/etc/nfc/libnfc-nxp_RF.conf
 vendor/etc/libnfc-nxp.conf
-vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
+vendor/etc/nfc/libnfc-nxp_RF.conf
 vendor/lib64/nfc_nci_nxpsn.so
-vendor/firmware/nfc/libsn100u_fw.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # Sensors
 vendor/lib/sensors.grip.so
